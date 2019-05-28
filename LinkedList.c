@@ -63,6 +63,7 @@ int main(void)
  */
 Node_t *newNode(const char *value, Node_t *next)
 {
+	char *target = strdup(*value); 
 	if(){
 		return ?;
 	}
