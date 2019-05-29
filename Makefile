@@ -36,8 +36,3 @@ test2: LinkedList Data/test2.input Data/test2.expected
 test3: LinkedList Data/test3.input Data/test3.expected
 	./LinkedList < Data/test3.input > test3.result
 	./TestPassed.sh test3.result Data/test3.expected
-# TODO: add targets to compile LinkedList.c
-
-# TODO: add a target for each .input file in the Data directory to run the compiled LinkedList program with the tests in ./Data
-
-# TODO: add a target that can run all the tests above.
